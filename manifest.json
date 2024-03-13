@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Duplicator",
+    "version": "1.0",
+    "description": "Duplicates the current tab.",
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+    "action": {
+      "default_icon": {
+        "128": "icon128.png"
+      },
+      "default_popup": "popup.html"
+    }
+  }
